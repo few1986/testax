@@ -1,0 +1,93 @@
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#encabezado,#menui, #contenido,#menur #piepag{
+    display: block;
+background-color: aliceblue;
+padding: 3px;
+margin: 5px;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* para 980px o menos */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#contentenido {
+		width: 65%;
+	}
+	#menur {
+		width: 30%;
+	}
+
+}
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+
+	#contentido {
+		width: auto;
+		float: none;
+	}
+	#menur {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* para 480px o menos */
+@media screen and (max-width: 480px) {
+
+	#encabezado {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#menur {
+		display: none;
+	}
+
+}
+
+
+#menui {
+    position: relative;
+    width: 15%;
+    float:  left;
+}
+
+#contenido {
+    position: relative;
+    width: 65%;
+    float: left ;
+    background-color: cadetblue;
+}
+
+#menur {
+    position: relative;
+    width: 15%;
+    float: right;
+    background-color: cadetblue;
+}
+
+
+#piepag {
+    
+    clear: both;
+    background-color: rosybrown;
+    position: relative;
+    
+}
+
+
